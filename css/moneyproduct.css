@@ -1,0 +1,167 @@
+#main {
+  padding: 4px 10px;
+  background: #FFFFFF;
+}
+#main .container .con-tit h3 {
+  font-size: 18px;
+  margin: 10px auto 5px auto;
+  font-weight: 800;
+  text-align: left;
+  text-align-last: left;
+  word-break: break-all;
+  color: #5a5a5a;
+  line-height: normal;
+}
+#main .container .con-tit h4 {
+  color: #ff6c00;
+  display: block;
+  font-size: 15px;
+}
+#main .container .info {
+  margin: 12px auto;
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+#main .container .info .mall {
+  margin: 0px 4px;
+}
+#main .container .info .time {
+  margin-right: 4px;
+}
+#main .container .info .author {
+  margin-right: 4px;
+}
+#main .container .content .pic {
+  width: 120px;
+  float: right;
+  margin: 12px auto auto 10px;
+  overflow: hidden;
+}
+#main .container .content .pic img {
+  width: 120px;
+  height: 120px;
+}
+#main .container .content .con-text {
+  font-size: 16px;
+  word-break: break-all;
+  line-height: 24px;
+  color: #606060;
+  padding-bottom: 20px;
+}
+#main .container .content .bigImg {
+  text-align: center;
+}
+#main .container .content .bigImg img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+#main .container .content .city {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+#main .container .content .city .buy {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+}
+#main .container .content .erweima img {
+  width: 100%;
+}
+#main .container .content .comment .tit {
+  font-size: 16px;
+  padding: 6px 8px;
+}
+#main .container .content .comment .reply .form {
+  border: 2px solid #ECEAE8;
+  border-radius: 2px;
+  padding: 4px 0 0 4px;
+  background-color: #fff;
+  position: relative;
+  width: 98%;
+  margin: 0px auto;
+}
+#main .container .content .comment .reply .form textarea {
+  width: 100%;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: none;
+  line-height: 22px;
+  font-size: 14px;
+  outline: 0;
+  color: #666;
+  height: 68px;
+  background-color: transparent;
+  overflow: hidden;
+}
+#main .container .content .comment .reply .form .ctrl {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fbfbfb;
+  height: 36px;
+  margin-left: -4px;
+  border-top: solid 1px #f2f2f2;
+}
+#main .container .content .comment .reply .form .ctrl input {
+  position: absolute;
+  right: -2px;
+  float: right;
+  background: #ff841d;
+  border: none;
+  border: 2px solid #ff841d;
+  border-left: none;
+  border-top: none;
+  padding: 0px;
+  width: 100px;
+  height: 39px;
+  color: #fff;
+  outline: 0;
+  border-radius: 0 0 2px 0;
+  font-size: 16px;
+}
+#main .container .content .comment .list .ui-border-b {
+  padding: 18px 10px;
+  background-color: #FFFFFF;
+}
+#main .container .content .comment .list .ui-border-b .userimg {
+  width: 40px;
+  float: left;
+  overflow: hidden;
+}
+#main .container .content .comment .list .ui-border-b .userimg img {
+  width: 40px;
+  background-position: top;
+  border-radius: 20px;
+  height: 40px;
+}
+#main .container .content .comment .list .ui-border-b .con {
+  overflow: hidden;
+  padding-left: 10px;
+}
+#main .container .content .comment .list .ui-border-b .con .name {
+  margin-bottom: 6px;
+}
+#main .container .content .comment .list .ui-border-b .con .name .username {
+  color: #5997c0;
+  font-size: 13px !important;
+  float: left;
+}
+#main .container .content .comment .list .ui-border-b .con .name .time {
+  color: #999999;
+  font-size: 13px !important;
+  float: right;
+}
+#main .container .content .comment .list .ui-border-b .con .content {
+  word-break: break-all;
+  font-size: 15px !important;
+  color: #606060;
+  line-height: 20px;
+}

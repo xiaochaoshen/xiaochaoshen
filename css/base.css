@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('http://static.manmanbuy.com/m/iconfont/iconfont.eot?t=1462330651');
+  /* IE9*/
+  src: url('http://static.manmanbuy.com/m/iconfont/iconfont.eot?t=1462330651#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://static.manmanbuy.com/m/iconfont/iconfont.woff?t=1462330651') format('woff'), /* chrome, firefox */ url('http://static.manmanbuy.com/m/iconfont/iconfont.ttf?t=1462330651') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('http://static.manmanbuy.com/m/iconfont/iconfont.svg?t=1462330651#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+a,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+html,
+img,
+input,
+label,
+legend,
+li,
+mark,
+ol,
+p,
+section,
+span,
+strong,
+textarea,
+time,
+ul,
+var {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-style: normal;
+}
+body,
+html {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif !important;
+}
+article,
+aside,
+details,
+fieldset,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+footer,
+header,
+section {
+  position: relative;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+button,
+input,
+textarea {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1em;
+  background-color: transparent;
+}
+span {
+  display: inline-block;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+.wordWrap,
+label {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+.clearfix:after {
+  content: ' ';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+input::-webkit-search-cancel-button {
+  display: none;
+}
+input {
+  outline: none;
+}
+.click_opacity {
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+a {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+#headerApp h1 {
+  color: #333;
+  font-size: 16px;
+}
+#header {
+  height: 50px;
+  background-color: #ff841d;
+}
+#header .logo {
+  padding: 12px;
+  width: 75%;
+  margin-left: 5px;
+}
+#header .logo a {
+  display: block;
+}
+#header .logo a img {
+  height: 25px;
+  overflow: hidden;
+}
+#header .appdown {
+  padding: 7px;
+}
+#header .appdown img {
+  height: 34px;
+}
+#header .fl {
+  float: left;
+}
+#header .fr {
+  float: right;
+}
+#header2 {
+  height: 44px;
+  background-color: #ff841d;
+}
+#header2 .back {
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  width: 33%;
+  line-height: 44px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+#header2 .back a {
+  color: white;
+  font-size: 30px;
+}
+#header2 h1 {
+  width: 33%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 44px;
+  color: #ffffff;
+  float: left;
+  -webkit-box-align: center;
+  height: 44px;
+}
+#header2 .home {
+  width: 33%;
+  line-height: 44px;
+  color: #ffffff;
+  padding: 7px;
+  bottom: 0px;
+  height: 44px;
+  font-size: 14px;
+  text-align: right;
+  position: relative;
+}
+#header2 .home img {
+  height: 34px;
+}
+#header2 .fl {
+  float: left;
+}
+#header2 .fr {
+  float: right;
+}
+#search {
+  height: 51px;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px;
+  position: relative;
+  background-color: White;
+}
+#search .searchbtn {
+  height: 30px;
+  width: 63px;
+  line-height: 30px;
+  background-color: #ff841d;
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+}
+#search .searchtxt {
+  height: 30px;
+  width: 95% ;
+  background-color: #f1f1f1;
+  line-height: 30px;
+  border: none;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
+  padding-left: 5%;
+  font-size: 16px;
+}
+#footer .foot_top {
+  margin-top: 10px;
+  background: #efefef;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  height: 34px;
+  line-height: 34px;
+}
+#footer .foot_top a {
+  text-decoration: none;
+  box-sizing: border-box;
+  float: left;
+  font-size: 14px;
+  border-right: 1px solid #c4c4c4;
+  text-align: center;
+  width: 30%;
+}
+#footer .foot_top a img {
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 2px;
+}
+#footer .foot_bottom {
+  background: #efefef;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 15px;
+  color: #666;
+}
+#footer .foot_bottom a {
+  text-decoration: none;
+}
+.app-promotion {
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #faf8f5;
+}
+.app-promotion .closefix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  margin: 19px 12px 20px;
+  background-image: url(../images/closefix.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21px;
+  display: block;
+}
+.app-promotion .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 46px;
+  width: 41px;
+  height: 41px;
+  margin: auto;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-size: 41px;
+}
+.app-promotion .titlefix {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #888;
+  margin: 8px 84px 0 97px;
+}
+.app-promotion .describe {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #999;
+  margin: 0px 84px 0 97px;
+}
+.app-promotion .download-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 74px;
+  height: 33px;
+  padding-top: 10px;
+  margin: auto;
+  font-size: 13px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  background-color: #ff7700;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px #ff5500;
+  text-decoration: none;
+}

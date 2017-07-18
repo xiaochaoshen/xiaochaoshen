@@ -1,0 +1,106 @@
+.nav {
+  height: 36px;
+  background-color: #ebebeb;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-top: solid 1px #ebebeb;
+  border-bottom: 1px solid #ccc;
+  line-height: 36px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+.nav a {
+  text-decoration: none;
+}
+.remen {
+  font-size: 16px;
+  color: #874604;
+  height: 40px;
+  padding-left: 10px;
+  line-height: 40px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+.brief {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 2px;
+}
+.brief .pinpai {
+  padding: 0 10px;
+}
+.brief .pinpai a {
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  font-size: 16px;
+  display: block;
+  padding-left: 0px;
+  border-bottom: 1px solid #ccc;
+  font-weight: 900;
+}
+.app-promotion {
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #faf8f5;
+}
+.app-promotion .closefix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  margin: 19px 12px 20px;
+  background-image: url(../images/closefix.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21px;
+  display: block;
+}
+.app-promotion .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 46px;
+  width: 41px;
+  height: 41px;
+  margin: auto;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-size: 41px;
+}
+.app-promotion .titlefix {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #888;
+  margin: 8px 84px 0 97px;
+}
+.app-promotion .describe {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #999;
+  margin: 0px 84px 0 97px;
+}
+.app-promotion .download-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 74px;
+  height: 33px;
+  padding-top: 10px;
+  margin: auto;
+  font-size: 13px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  background-color: #ff7700;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px #ff5500;
+  text-decoration: none;
+}

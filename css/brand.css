@@ -1,0 +1,238 @@
+.nav {
+  height: 36px;
+  background-color: #ebebeb;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ebebeb));
+  border-top: solid 1px #ebebeb;
+  border-bottom: 1px solid #ccc;
+  line-height: 36px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+.nav a {
+  text-decoration: none;
+}
+.remen {
+  font-size: 16px;
+  color: #874604;
+  height: 40px;
+  padding-left: 10px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #eee;
+}
+.brief {
+  margin: 0 2px;
+}
+.brief .pinpai:nth-of-type(1) em {
+  background-color: #f10e0e;
+}
+.brief .pinpai:nth-of-type(2) em {
+  background: #ff9314;
+}
+.brief .pinpai:nth-of-type(3) em {
+  background: #8adf5b;
+}
+.brief .pinpai {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+.brief .pinpai a {
+  color: #000;
+  font-size: 16px;
+  display: block;
+  padding-left: 0px;
+}
+.brief .pinpai a em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background: #c9c9c9;
+  color: #FFFFFF;
+  line-height: 20px;
+  vertical-align: top;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+  float: left;
+  overflow: hidden;
+}
+.brief .pinpai a .in {
+  display: inline-block;
+}
+.brief .pinpai a .in .intop {
+  color: #0f0f0f;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-style: normal;
+}
+.brief .pinpai a .in .inner {
+  font-size: 12px;
+  color: #999999;
+}
+#prolist ul li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+#prolist ul li a {
+  display: block;
+}
+#prolist ul li a .pic {
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+#prolist ul li a .pic img {
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+#prolist ul li a .info {
+  font-size: 14px;
+  line-height: 24px;
+}
+#prolist ul li a .info .tit {
+  color: #333333;
+  line-height: 22px;
+  min-height: 44px;
+  word-break: break-all;
+}
+#prolist ul li a .info .price {
+  height: 25px;
+  margin-top: 4px;
+}
+#prolist ul li a .info .price em {
+  font-size: 18px;
+  color: #ea3900;
+  vertical-align: middle;
+  float: left;
+}
+#prolist ul li a .info .price span {
+  float: right;
+  margin-top: 2px;
+  color: orange;
+  width: 90px;
+  font-size: 18px;
+}
+#prolist ul li a .info .price span i {
+  font-size: 18px;
+  color: #ea3900;
+  vertical-align: middle;
+  float: left;
+}
+#prolist ul li a .info .other {
+  font-size: 12px;
+  color: #999999;
+}
+#com ul li {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+}
+#com ul li .protit {
+  margin-bottom: 10px;
+  height: 80px;
+}
+#com ul li .protit .picn {
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+#com ul li .protit .picn img {
+  width: 80px;
+  height: 80px;
+}
+#com ul li .protit .titn {
+  color: #999999;
+  line-height: 22px;
+  font-size: 14px;
+  word-break: break-all;
+}
+#com ul li .plbox {
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #e7e7e7;
+  position: relative;
+}
+#com ul li .plbox .name {
+  color: #4f6900;
+}
+#com ul li .plbox .name span {
+  margin-top: -4px;
+}
+#com ul li .plbox .name span em {
+  color: orange;
+}
+#com ul li .plbox .name span i {
+  color: #999999;
+  float: right;
+  font-style: normal;
+}
+.app-promotion {
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #faf8f5;
+}
+.app-promotion .closefix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21px;
+  height: 21px;
+  margin: 19px 12px 20px;
+  background-image: url(../images/closefix.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21px;
+  display: block;
+}
+.app-promotion .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 46px;
+  width: 41px;
+  height: 41px;
+  margin: auto;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-size: 41px;
+}
+.app-promotion .titlefix {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #888;
+  margin: 8px 84px 0 97px;
+}
+.app-promotion .describe {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #999;
+  margin: 0px 84px 0 97px;
+}
+.app-promotion .download-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 74px;
+  height: 33px;
+  padding-top: 10px;
+  margin: auto;
+  font-size: 13px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  background-color: #ff7700;
+  border-radius: 4px;
+  box-shadow: inset 0 -2px #ff5500;
+  text-decoration: none;
+}

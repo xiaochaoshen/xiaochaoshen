@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--引入第三方框架UI-->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="css/base.less">
+    <link rel="stylesheet/less" href="css/getproduct.less">
+    <script type="text/javascript" src="lib/less/less.js"></script>
+    <title>产品详情</title>
+</head>
+<body>
+<header id="header">
+    <div class="fl logo"><a href=""><img src="images/header_logo.png" alt=""></a></div>
+    <div class="fr appdown"><a href=""><img src="images/header_app.png" alt=""></a></div>
+
+</header>
+<section id="search">
+    <form action="">
+        <input type="text" placeholder="请输入您相比价的商品" class="searchtxt">
+        <input type="submit" value="搜索" class="searchbtn">
+    </form>
+
+</section>
+
+<div id="nav">
+    <div class="nav-in"><a href="index.html">首页> </a></div>
+    <div class="nav-in"><a href="">全部分类> </a></div>
+    <div class="nav-in haha"></div>
+</div>
+
+<div id="main">
+
+</div>
+
+<div id="comment">
+    <div class="c-top">网友评价</div>
+
+</div>
+
+<section id="footer">
+    <div class=foot_top>
+        <a href="">登陆</a>
+        <a href="">注册</a>
+        <a href="" style="width: 40%; border:0"><img src="images/top.jpg" width="15px" height="15px" alt="">返回顶部</a>
+    </div>
+    <div class="foot_bottom">
+        <p>
+            <a href="" style="color: red;">手机下载</a>
+            <a href="">慢慢买手机版</a>
+            --掌上比价平台
+        </p>
+        <p>m.manmanbuy.com</p>
+    </div>
+</section>
+
+<div class="app-promotion ">
+    <a href="JavaScript:;" class="closefix "></a>
+    <div class="icon "></div>
+    <p class="titlefix">慢慢买</p>
+    <p class="describe">全网比价，查历史价格</p>
+    <a href="" class="download-btn">立即打开</a>
+</div>
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/getproduct.js"></script>
+<script src="lib/template.js"></script>
+
+<script id="product" type=text/html>
+    {{each result as value i}}
+        <div>
+            <div class='tit'>{{value.productName}}</div>
+            <div class='pic'>{{#value.productImg}}</div>
+            {{#value.bjShop}}
+        </div>
+    {{/each}}
+</script>
+<script id="pinpai" type=text/html>
+    {{each result as value i}}
+    <a href="">{{value.brandName}}</a>
+    {{/each}}
+</script>
+<script id="text1" type=text/html>
+    {{each result as value i}}
+    <div class='c-main'>
+        <table width='100%'>
+            <toby>
+                <tr>
+                    <td class='name' align='left'>{{value.comName}}</td>
+                    <td align='right'>{{value.comTime}}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align='right'>{{comFrom}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2">{{value.comContent}}</td>
+                </tr>
+            </toby>
+        </table>
+    </div>
+
+    {{/each}}
+</script>
+</body>
+</html>

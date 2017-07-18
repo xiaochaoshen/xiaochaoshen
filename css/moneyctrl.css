@@ -1,0 +1,75 @@
+#main {
+  background-color: #ffffff;
+  text-align: left;
+  font-size: 14px;
+  max-width: 960px;
+  margin: 0px auto;
+}
+#main li {
+  padding: 14px 8px;
+  position: relative;
+}
+#main li .pic {
+  float: left;
+  width: 110px;
+}
+#main li .pic img {
+  width: 100px;
+  height: 100px;
+}
+#main li .info {
+  padding-left: 90px;
+  font-size: 14px;
+  line-height: 24px;
+}
+#main li .info .title {
+  color: #333333;
+  font-size: 15px;
+  line-height: 19px;
+  min-height: 57px;
+  text-align: left;
+}
+#main li .info .title span {
+  color: #ff6c00;
+  display: inline;
+}
+#main li .info .other {
+  margin-top: 8px;
+  color: #a1a1a1;
+}
+#main li .info .other .mall {
+  color: #a1a1a1;
+  font-size: 12px;
+  float: left;
+}
+#main li .info .other .comment {
+  color: #a1a1a1;
+  font-size: 12px;
+  float: right;
+}
+#page {
+  text-align: center;
+}
+#page tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+#page tr #selectPage {
+  font-size: 16px;
+  padding: 16px 15px;
+  height: 32px;
+}
+#page tr td {
+  text-align: center;
+}
+#page tr td a {
+  box-sizing: border-box;
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  overflow: hidden;
+  padding: 8px 20px;
+}
